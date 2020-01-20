@@ -1,0 +1,233 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.page {
+     font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+     height: 100vh;
+     padding: 25px 150px;
+     background-color: #87509c;
+     color: #fff;
+}
+
+.nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     padding-bottom: 25px;
+}
+
+.logo {
+     font-size: 40px;
+     font-weight: 900;
+     font-style: oblique;
+}
+
+.nav-list {
+     display: flex;
+     justify-content: space-between;
+     width: 45%;
+     list-style-type: none;
+}
+
+.nav-list-item {
+     padding: 5px 10px;
+     border-radius: 5px;
+     text-transform: uppercase;
+     cursor: pointer;
+}
+
+.nav-list-item:hover {
+     background-color: #643a79;
+}
+
+.header-action {
+     padding: 100px 0;
+     text-align: center;
+}
+
+.par-action {
+     font-size: 42px;
+     margin-bottom: 40px;
+}
+
+.btn-work {
+     padding: 15px 40px;
+     border: none;
+     border-bottom: 4px solid #c86a40;
+     border-radius: 3px;
+     background-color: #eb7d4b;
+     text-transform: uppercase;
+     font-family: inherit;
+     font-weight: 700;
+     color: #fff;
+}
+.services {
+     height: 100vh;
+     background-color: #17c2a4;
+     color: #fff;
+     display: flex;
+     flex-flow: column wrap;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.heading-lvl-two {
+     text-transform: uppercase;
+     padding-top: 60px;
+}
+.horizontal-rule {
+     width: 50px;
+     height: 4px;
+     border: none;
+     background-color: #14a58c;
+}
+.wrapper-in-services {
+     display: flex;
+     justify-content: center;
+     padding: 70px 180px;
+     text-align: center;
+}
+.image-services {
+     width: 140px;
+     height: 140px;
+}
+.heading-services {
+     text-transform: uppercase;
+     margin: 20px 0;
+}
+
+
+
+
+.team {
+     height: 100vh;
+     display: flex;
+     flex-flow: column;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     background-color: #e7f1f8;
+     color: #3c4761;
+}
+
+.image-team {
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+}
+.heading-lvl-three {
+     text-transform: uppercase;
+     margin-top: 60px;
+}
+.horizontal-text {
+     width: 50px;
+     height: 4px;
+     border: none;
+     
+
+}
+
+.tagline {
+     color: #30bae7;
+}
+.wrapper-in-team {
+     display: flex;
+     justify-content: center;
+     padding: 70px 370px;
+     text-align: center;}
+
+
+
+
+
+
+ /*CONTACT US SECTION*/
+
+.contact-us {
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #3c5499;
+     color: #fff;
+     text-align: center;
+}
+.rule-contact{
+     background-color: #273a71;
+     margin: 15px 0;
+}
+.heading-lvl-four {
+     text-transform: uppercase;
+}
+.name, .email {
+     display: inline-block;
+     width: 45%;
+     padding: 15px;
+     margin-bottom: 20px;
+     font-family: inherit;
+     color: #fff;
+     
+
+}
+.form {
+     display: flex;
+     flex-flow: row wrap;
+     width: 50%;
+     margin-top: 50px;
+     justify-content: space-between;
+}
+.message {
+     width: 100%;
+     height: 220px;
+     color: #fff;
+     resize: none;
+     font-family: inherit;
+     padding: 15px;
+}
+.name, .email, .message {
+     background-color: #273a71;
+     border-radius: 3px;
+     border: none;
+}
+.name::placeholder, .email::placeholder, .message::placeholder {
+     font-size: 17px;
+     color: #fff;
+}
+.button {
+     display: block;
+     text-transform: uppercase;
+     background-color: #30bae7;
+     color: #fff;
+     margin-top: 20px;
+     font-family: inherit;
+     padding: 15px 40px;
+     border: none;
+     border-bottom: 3px solid #299ec5;
+}
+
+/*END OF CONTACTS SECTION */
+.footer{
+     background-color: #344b8e;
+}
+.nav-social-list {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+     padding: 50px;
+     list-style-type: none;
+     margin: auto;
+     font-weight: 700;
+     font-size: 18px;
+     color: #fff;
+}
+.list-item-social:hover {
+     cursor: pointer;
+     color: #30bae7;
+}
+}
